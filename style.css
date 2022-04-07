@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+#main{
+    height: 100vh;
+    background: url("bg.jpg");
+    background-position: center;
+    background-size: 86rem;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+}
+
+span{
+    color: red;
+}
+
+#strate{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+#strate h2{
+    font-size: 2rem;
+    margin-top: 0.4rem;
+}
+
+#strate p{
+    font-size: 1.3rem;
+    margin-top: 0.4rem;
+}
+
+button{
+    margin-top: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: none;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+button img{
+    height: 4rem;
+    width: 4rem;
+}
+
+#strate h3{
+    margin-top: 20vh;
+}
+
+#main1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    /* width: 27rem; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#card img{
+    height: 20rem;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form form input{
+    margin: 0.3rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    outline: none;
+}
